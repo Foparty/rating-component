@@ -1,0 +1,62 @@
+body {
+  font-family: "Overpass", sans-serif;
+  background: hsl(216deg, 12%, 8%);
+}
+
+p {
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+.container .card {
+  padding: 1rem;
+  max-width: 410px;
+  background: linear-gradient(rgba(37, 45, 55, 0.6), rgba(37, 45, 55, 0.4));
+  border-radius: 19px;
+}
+.container .star {
+  background: hsl(213deg, 19%, 18%);
+  display: inline-block;
+  border-radius: 100px;
+}
+.container .star img {
+  padding: 0.7rem;
+}
+.container h2.heading {
+  font-width: 700;
+}
+.container p {
+  color: hsl(217deg, 12%, 63%);
+}
+.container form {
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.container form label {
+  text-align: center;
+  position: relative;
+  color: hsl(216deg, 12%, 54%);
+  background: hsl(213deg, 19%, 18%);
+  padding: 0.7rem;
+  border-radius: 100px;
+  height: 45px;
+  width: 45px;
+}
+.container form input:hover {
+  color: hsl(0deg, 0%, 100%);
+  background: hsl(25deg, 97%, 53%);
+}
+.container form li:checked {
+  color: hsl(0deg, 0%, 100%);
+  background: hsl(217deg, 12%, 63%);
+}
+
+/*# sourceMappingURL=style.css.map */

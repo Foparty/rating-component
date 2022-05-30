@@ -1,0 +1,62 @@
+@import 'variables';
+
+body {
+  font-family: 'Overpass', sans-serif;
+  background: $vdblue;
+}
+p {
+  font-size: 15px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  .card {
+    padding: 1rem;
+    max-width: 410px;
+    background: linear-gradient(rgba(37, 45, 55, 0.6), rgba(37, 45, 55, 0.4));
+    border-radius: 19px;
+  }
+  .star {
+    background: $dblue;
+    display: inline-block;
+    border-radius: 100px;
+    img {
+      padding: .7rem;
+    }
+  }
+  h2.heading {
+    font-width: 700;
+  }
+  p {
+    color: $light-grey;
+  }
+  form {
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    label {
+
+      text-align: center;
+      position: relative;
+      color: $med-grey;
+      background: $dblue;
+      padding: .7rem;
+      border-radius: 100px;
+      height: 45px;
+      width: 45px;
+    }
+    input:hover {
+      color: $white;
+      background: $primary;
+    }
+    li:checked {
+      color: $white;
+      background: $light-grey;
+    }
+
+  }
+}
