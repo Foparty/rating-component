@@ -4,40 +4,49 @@ body {
   font-family: 'Overpass', sans-serif;
   background: $vdblue;
 }
+
 p {
   font-size: 15px;
 }
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   color: #fff;
+
   .card {
     padding: 1rem;
     max-width: 410px;
     background: linear-gradient(rgba(37, 45, 55, 0.6), rgba(37, 45, 55, 0.4));
     border-radius: 19px;
   }
+
   .star {
     background: $dblue;
     display: inline-block;
     border-radius: 100px;
+
     img {
       padding: .7rem;
     }
   }
+
   h2.heading {
     font-width: 700;
   }
+
   p {
     color: $light-grey;
   }
+
   form {
     padding: 1rem;
     list-style: none;
     display: flex;
     justify-content: space-between;
+
     label {
       text-align: center;
       position: relative;
@@ -47,6 +56,7 @@ p {
       border-radius: 100px;
       height: 45px;
       width: 45px;
+
       input {
         text-align: center;
         position: absolute;
@@ -61,16 +71,19 @@ p {
         height: 45px;
         width: 45px;
       }
-      input:checked ~ * label {
+
+      input:checked~* label {
         color: $white;
         background: $light-grey;
       }
     }
+
     label:hover {
       color: $white;
       background: $primary;
     }
   }
+
   a {
     display: block;
     border-radius: 100px;
@@ -79,10 +92,11 @@ p {
     text-transform: uppercase;
     letter-spacing: .1rem;
     border: none;
+
     &:hover {
       background: $white;
       color: $primary;
 
-      }
+    }
   }
 }
