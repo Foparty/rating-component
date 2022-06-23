@@ -16,9 +16,12 @@ p {
 }
 .container .card {
   padding: 1rem;
-  max-width: 410px;
+  width: 410px;
+  max-width: 90vw;
+  height: auto;
   background: linear-gradient(rgba(37, 45, 55, 0.6), rgba(37, 45, 55, 0.4));
   border-radius: 19px;
+  aspect-ratio: 1/1;
 }
 .container .star {
   background: hsl(213deg, 19%, 18%);
@@ -84,4 +87,21 @@ p {
 .container a:hover {
   background: hsl(0deg, 0%, 100%);
   color: hsl(25deg, 97%, 53%);
+}
+
+.card-thanks {
+  display: none;
+  text-align: center;
+}
+.card-thanks .card-body span img {
+  margin-bottom: 2rem;
+}
+.card-thanks .card-body h4 {
+  font-size: 0.9rem;
+  color: hsl(25deg, 97%, 53%);
+  margin-bottom: 2rem;
+}
+.card-thanks .card-body h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
 }

@@ -18,9 +18,12 @@ p {
 
   .card {
     padding: 1rem;
-    max-width: 410px;
+    width: 410px;
+    max-width: 90vw;
+    height: auto;
     background: linear-gradient(rgba(37, 45, 55, 0.6), rgba(37, 45, 55, 0.4));
     border-radius: 19px;
+    aspect-ratio: 1/1;
   }
 
   .star {
@@ -97,6 +100,28 @@ p {
       background: $white;
       color: $primary;
 
+    }
+  }
+}
+
+.card-thanks {
+  display: none;
+  text-align: center;
+  .card-body {
+    span img {
+      margin-bottom: 2rem;
+    }
+    h4 {
+      font-size: .9rem;
+      color: $primary;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.7rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      
     }
   }
 }
